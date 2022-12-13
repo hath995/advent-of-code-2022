@@ -24,7 +24,7 @@ console.log(part1(data));
 
 function part2(data: number[][]) {
     let totals = data.map(items => items.reduce((x,y) => x+y,0));
-    totals.sort((a, b) => b - a);
+    totals.sort((a, b) => b - a); //n * log(n)
     return totals[0] + totals[1] + totals[2];
 }
 

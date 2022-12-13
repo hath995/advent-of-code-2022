@@ -1,4 +1,5 @@
 import { assert } from 'console';
+
 import fs from 'fs';
 
 type OpHand = "A" | "B" | "C";
